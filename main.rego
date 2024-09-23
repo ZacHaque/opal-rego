@@ -58,3 +58,10 @@ columnMask := column_mask if {
 rowFilters contains row_filter if {
 	row_filter := rls.filter
 }
+
+
+
+
+allow if {
+	input.context.identity.user = "zayan"
+}

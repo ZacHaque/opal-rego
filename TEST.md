@@ -1,0 +1,1 @@
+trino --execute 'SELECT nationkey, name, regionkey FROM tpch.sf1.nation LIMIT 3' http://192.168.1.180:8080 --user=admin
